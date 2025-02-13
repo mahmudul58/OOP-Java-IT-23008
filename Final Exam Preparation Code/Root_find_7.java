@@ -14,11 +14,8 @@ public class Root_find_7 {
         if (d > 0) {
             double root1 = (-b + Math.sqrt(d)) / 2;
             double root2 = (-b - Math.sqrt(d)) / 2;
-            if (root1 < root2) {
-                System.out.println("The smallest positive root is: " + root1); 
-            }else {
-                System.out.println("The smallest positive root is: " + root2);
-            }
+            double res = Math.min(root1, root2);
+            System.out.println("The smallest positive root is: " + res);
         } else {
             System.out.println("No real root exist.");
         }
