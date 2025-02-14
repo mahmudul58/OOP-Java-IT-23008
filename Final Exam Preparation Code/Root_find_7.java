@@ -1,4 +1,4 @@
-
+//Mahmudul(IT-23008)
 import java.util.*;
 
 public class Root_find_7 {
@@ -12,8 +12,8 @@ public class Root_find_7 {
         c = sc.nextDouble();
         double d = (b * b - 4 * a * c);
         if (d > 0) {
-            double root1 = (-b + Math.sqrt(d)) / 2;
-            double root2 = (-b - Math.sqrt(d)) / 2;
+            double root1 = (-b + Math.sqrt(d)) / 2*a;
+            double root2 = (-b - Math.sqrt(d)) / 2*a;
             double res = Math.min(root1, root2);
             System.out.println("The smallest positive root is: " + res);
         } else {
